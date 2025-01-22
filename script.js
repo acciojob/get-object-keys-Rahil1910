@@ -3,7 +3,7 @@ const student = {
 	name : "Rahil"
 }
 function getKeys(obj) {
-	return object.keys(obj);
+	return obj.key();
 }
 
 const fn = getKeys(student);
