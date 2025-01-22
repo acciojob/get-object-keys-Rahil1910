@@ -16,31 +16,7 @@
         }
 
         const keys = getKeys(student);
-		 if (keys.includes('name')) {
-            console.log("The 'name' key exists in the object.");
-        } else {
-            console.log("The 'name' key does not exist in the object.");
-        }
-
-		describe('Example To-Do App', () => {
-    it('returns an array of all the keys in an object - 1', () => {
-        // Wait for the element with the specific id to be visible
-        cy.get('#yourElementId').should('exist').then(($el) => {
-            const keys = Object.keys($el[0]);
-            console.log(keys);
-            // Continue with further assertions or logic
-        });
-    });
-
-    it('returns an array of all the keys in an object - 2', () => {
-        // Wait for the element to be available in the DOM
-        cy.get('#yourElementId').should('exist').then(($el) => {
-            const keys = Object.keys($el[0]);
-            console.log(keys);
-            // Continue with further assertions or logic
-        });
-    });
-});
+		console.log(keys);
     </script>
 </body>
 </html>
