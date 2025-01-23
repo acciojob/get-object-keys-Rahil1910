@@ -17,6 +17,14 @@
 
         const keys = getKeys(student);
 		console.log(keys);
+		it('returns an array of all the keys in an object - 1', () => {
+  cy.visit('http://localhost:3000') // visit your app's URL
+  // wait for the element to be visible before interacting with it
+  cy.get('your-selector').should('be.visible').then(($element) => {
+    // now you can interact with the element
+    // $element.getAttribute('your-attribute')
+  })
+})
     </script>
 </body>
 </html>
